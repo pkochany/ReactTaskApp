@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+input:checked + .cross-when-checked {
+  text-decoration: line-through;
+}
